@@ -1,9 +1,10 @@
 import React from "react";
 
-import './App.css';
+import "./App.css";
+import profile from "./assets/Caricatura.png";
 
 function App() {
-  return <h1>Hello ocketseat</h1>;
+  return <img src={profile} />;
 }
 
 export default App;
